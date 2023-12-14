@@ -1,0 +1,137 @@
+.main-title {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 32px;
+  color: rgb(255, 0, 255);
+}
+
+header {
+  font-family: Franklin Gothic Medium;
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.s-highlight {
+  color: #02f202;
+}
+
+#map {
+  text-align: center;
+  padding: 20px;
+
+}
+
+.map-img {
+  width: 100%;
+  height: 300px;
+}
+
+.map-caption {
+  text-align: center;
+}
+
+#flybtn {
+  display: none;
+}
+
+.availability {
+  color: red;
+  display: none;
+}
+
+#available {
+  color: green;
+  display: none;
+}
+
+
+#menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  left: 20%;
+  right: 20%;
+}
+
+#left-menu {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1%;
+}
+
+#big-button {
+  display: inline-block;
+  color: antiquewhite;
+  height: 25px;
+}
+
+.attractive-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #545454;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 100%;
+}
+
+#right-menu {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1%;
+}
+
+.text-button {
+  display: inline-block;
+  padding: 10px;
+  background-color: #ccc;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+
+.map-icon-button {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#L1 {
+  left: 150px;
+  top: 50px;
+}
+
+#L3 {
+  left: 475px;
+  top: 150px;
+}
+
+#L2 {
+  left: 900px;
+  top: 150px;
+}
+
+#L4 {
+  left: 1100px;
+  top: 50px;
+}
+
+.staff-sign {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
